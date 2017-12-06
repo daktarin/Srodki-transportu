@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Środki transportu</string>
+    <string name="srodekTransportu_1">Auto</string>
+    <string name="srodekTransportu_10">Pociąg</string>
+    <string name="srodekTransportu_11">Rower</string>
+    <string name="srodekTransportu_12">Rower wodny</string>
+    <string name="srodekTransportu_13">Samolot</string>
+    <string name="srodekTransportu_14">Skuter wodny</string>
+    <string name="srodekTransportu_15">Sterowiec</string>
+    <string name="srodekTransportu_16">Traktor</string>
+    <string name="srodekTransportu_17">Żaglówka</string>
+    <string name="srodekTransportu_2">Autobus</string>
+    <string name="srodekTransportu_3">Balon</string>
+    <string name="srodekTransportu_4">Bryczka</string>
+    <string name="srodekTransportu_5">Helikopter</string>
+    <string name="srodekTransportu_6">Kajak</string>
+    <string name="srodekTransportu_7">Łódka</string>
+    <string name="srodekTransportu_8">Motolotnia</string>
+    <string name="srodekTransportu_9">Motocykl</string>
+    <string name="txtBtnPoznajJeWszystkie">Poznaj je wszystkie</string>
+    <string name="txtSrodkiTranspotyu">Środki transportu</string>
+</resources>

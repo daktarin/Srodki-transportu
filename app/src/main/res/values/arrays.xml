@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="races_array">
+        <item>@string/srodekTransportu_1</item>
+        <item>@string/srodekTransportu_2</item>
+        <item>@string/srodekTransportu_3</item>
+        <item>@string/srodekTransportu_4</item>
+        <item>@string/srodekTransportu_5</item>
+
+        <item>@string/srodekTransportu_6</item>
+        <item>@string/srodekTransportu_7</item>
+        <item>@string/srodekTransportu_8</item>
+        <item>@string/srodekTransportu_9</item>
+        <item>@string/srodekTransportu_10</item>
+
+        <item>@string/srodekTransportu_11</item>
+        <item>@string/srodekTransportu_12</item>
+        <item>@string/srodekTransportu_13</item>
+        <item>@string/srodekTransportu_14</item>
+        <item>@string/srodekTransportu_15</item>
+
+
+    </string-array>
+</resources>

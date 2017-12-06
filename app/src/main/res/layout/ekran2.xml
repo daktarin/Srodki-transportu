@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewSrodkiTransportu"
+        android:layout_gravity="center"
+        android:scaleType="fitXY" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBtnPrev"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/btn_prev"
+        android:onClick="pokazPoprzedniSrodekTransportu"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBtnNext"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/btn_next"
+        android:onClick="pokazNastepnySrodekTransportu"
+        android:layout_marginRight="15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPasekGorny"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/belka_gorna"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textSrodekTransportuNazwa"
+        android:layout_gravity="center_horizontal|top"
+        android:singleLine="false"
+        android:textSize="25sp"
+        android:textIsSelectable="false"
+        android:textColor="#050000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonMuteOnOff"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:onClick="musicOnOff"
+        android:background="#00ffffff" />
+
+
+</FrameLayout>

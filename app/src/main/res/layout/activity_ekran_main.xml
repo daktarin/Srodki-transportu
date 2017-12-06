@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="eu.marcin.srodkitransportu1.EkranMain">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@drawable/small" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtSrodkiTranspotyu"
+        android:id="@+id/textViewSrodkiTransportu"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:paddingTop="30dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:src="@drawable/btn_ekran_powitalny"
+        android:padding="0dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnPoznajJeWszystkie"
+        android:id="@+id/textView"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#f70606"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+
+
+
+    <!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="przejdzDoAplikacji"
+            android:background="@drawable/btn_ekran_powitalny"
+            android:paddingTop="0dp"
+            android:textColor="#f90404"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+    -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:onClick="przejdzDoAplikacji"/>
+
+
+
+
+</FrameLayout>

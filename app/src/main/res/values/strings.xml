@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Means of transpor</string>
+    <string name="txtBtnPoznajJeWszystkie">Meet them all</string>
+    <string name="txtSrodkiTranspotyu">Means of transport</string>
+
+    <string name="srodekTransportu_1">Car</string>
+    <string name="srodekTransportu_2">Bus</string>
+    <string name="srodekTransportu_3">Balloon</string>
+    <string name="srodekTransportu_4">Chaise</string>
+    <string name="srodekTransportu_5">Helicopter</string>
+    <string name="srodekTransportu_6">Kayak</string>
+    <string name="srodekTransportu_7">Boat</string>
+    <string name="srodekTransportu_8">Powered hang glider</string>
+    <string name="srodekTransportu_9">Motorcycle</string>
+    <string name="srodekTransportu_10">Train</string>
+    <string name="srodekTransportu_11">Bike</string>
+    <string name="srodekTransportu_12">A paddle boat</string>
+    <string name="srodekTransportu_13">Plane</string>
+    <string name="srodekTransportu_14">Jet ski</string>
+    <string name="srodekTransportu_15">Airship</string>
+    <string name="srodekTransportu_16">Tractor</string>
+    <string name="srodekTransportu_17">Sail boat</string>
+
+</resources>
